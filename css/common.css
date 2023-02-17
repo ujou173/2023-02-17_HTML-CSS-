@@ -28,7 +28,6 @@
 body {margin: 0;}
 p {margin: 0;}
 
-/* class */
 /* flex 속성 */
 .display-flex {display: flex;}
 
@@ -92,6 +91,7 @@ body > header > ul {
   font-size: var(--font-size-small-12);
 }
 
+/* a태그 폰트색상 및 밑줄 없앰 */
 body > header > ul > li > a {
   color: black;
   text-decoration: none;
@@ -103,6 +103,7 @@ body > main > section:first-of-type {
   width: 100vw;
   height: calc(100vh - 110px);
 }
+
 
 body > main > section:first-of-type > div {
   width: 100%;
