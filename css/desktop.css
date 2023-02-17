@@ -25,4 +25,21 @@
   body > main > section:nth-of-type(2) {
     flex: 2;
   }
+
+  body > main > section:first-of-type > div {
+    padding-top: 24px;
+    padding-bottom: 265px;
+  }
+
+  body > main > section:first-of-type > div > div:first-child {
+    padding-left: 38px;
+  }
+
+  body > main > section:nth-of-type(2) > div {
+    height: 857px;
+    padding-bottom: 82px;
+    padding-left: auto;
+    padding-right: 64px;
+  }
+
 }
