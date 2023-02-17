@@ -34,6 +34,11 @@
     line-height: 80px;
   }
 
+  body > section:first-of-type > div > div:nth-of-type(2) {
+    align-self: flex-start;
+    padding-left: 196px;
+  }
+
   body > section:first-of-type > div > div:nth-of-type(3) {
     align-self: flex-start;
     padding-left: 60px;
