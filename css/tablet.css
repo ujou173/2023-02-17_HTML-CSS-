@@ -5,6 +5,7 @@
 /* header */
   body > header > div {
     height: 100px;
+    padding-bottom: 19px;
   }
 
   body > header > div > p:nth-child(2) {

@@ -73,6 +73,7 @@ body > header > div {
   font-weight: var(--font-wight-900);
   font-size: var(--font-size-small-12);
   background-color: var(--color-blue);
+  justify-content: center;
 }
 
 body > header > div > p:nth-child(2) {

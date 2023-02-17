@@ -1,6 +1,15 @@
 @charset 'utf-8';
 /* desktop 미디어 쿼리 */
 @media screen and (min-width: 1200px) {
+  
+  /* header */
+  body > header > div {
+    padding-left: 38px;
+    padding-bottom: 35px;
+    justify-content: flex-start;
+  }
 
+  body > header > div > p:first-child {
 
+  }
 }
