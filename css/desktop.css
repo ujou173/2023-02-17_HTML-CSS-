@@ -23,7 +23,7 @@
   }
 
   body > main > section:nth-of-type(2) {
-    flex: 2;
+    flex: 3;
   }
 
   body > main > section:first-of-type > div {
@@ -49,6 +49,7 @@
 
   /* 마지막 문장 밑줄 가상태그 위치 조절 */
   body > main > section:nth-of-type(2) > div > div > div:nth-child(1) > p:last-child::after {
+    width: 1125px;
     right: 0;
     left: auto;
   }

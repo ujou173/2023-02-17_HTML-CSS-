@@ -59,7 +59,7 @@
 
   /* 마지막 문장 밑줄 가상태그로 처리 */
   body > main > section:nth-of-type(2) > div > div > div:nth-child(1) > p:last-child::after {
-    width: 317%;
+    width: 890px;
     bottom: -9px;
   }
 }
