@@ -77,7 +77,6 @@ body > header > ul {
 body > section:first-of-type {
   width: 100vw;
   height: calc(100vh - 110px);
-  border: 1px solid red;
 }
 
 body > section:first-of-type > div {
@@ -109,28 +108,27 @@ body > section:first-of-type > div > div:nth-child(3) > p {
 
 /* section-2 */
 body > section:nth-of-type(2) {
-  border: 1px solid black;
   background-color: var(--main-color-01);
-
 }
 
 body > section:nth-of-type(2) > div {
   width: 100%;
   height: calc(100vh - 200px);
+  padding-bottom: 147px;
 }
 
-body > section:nth-of-type(2) > div > div:nth-child(1) {
+body > section:nth-of-type(2) > div > div > div:nth-child(1) {
   padding-left: 19px;
 }
 
-body > section:nth-of-type(2) > div > div:nth-child(1) > p {
+body > section:nth-of-type(2) > div > div > div:nth-child(1) > p {
   font-size: 128px;
   font-weight: 400;
   font-family: 'Karantina';
 }
 
 /* 마지막 문장 밑줄 가상태그로 처리 */
-body > section:nth-of-type(2) > div > div:nth-child(1) > p:last-child::after{
+body > section:nth-of-type(2) > div > div > div:nth-child(1) > p:last-child::after{
   content: "";
   position: absolute;
   bottom: 0;
@@ -140,7 +138,15 @@ body > section:nth-of-type(2) > div > div:nth-child(1) > p:last-child::after{
   background-color: var(--font-color-white);
 }
 
-body > section:nth-of-type(2) > div > div:nth-child(2) > i {
+body > section:nth-of-type(2) > div > div > div:nth-child(2) > i {
   font-size: 61px;
   padding-left: 22px;
+}
+
+
+/* footer */
+body > footer {
+  background-color: var(--font-color-black);
+  height: 200px;
+  color: var(--font-color-white);
 }
