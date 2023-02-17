@@ -1,8 +1,12 @@
 @charset 'utf-8';
 
-/* inter 폰트 - 400/700/900 */
+/* Inter 폰트 - 400/700/900 */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+/* font-family: 'Inter', sans-serif; */
 
+/* Karantina 폰트 - 400 */
+@import url('https://fonts.googleapis.com/css2?family=Karantina&display=swap');
+/* font-family: 'Karantina', cursive; */
 
 :root {
   --main-color-01: #2196F3;
@@ -25,6 +29,9 @@ p {margin: 0;}
 .justify-content-start {justify-content: flex-start;}
 .justify-content-center {justify-content: center;}
 .justify-content-end {justify-content: flex-end;}
+.justify-content-around {justify-content: space-around;}
+.justify-content-between {justify-content: space-between;}
+.justify-content-evenly {justify-content: space-evenly;}
 
 .align-items-start{align-items: flex-start;}
 .align-items-center{align-items: center;}
@@ -68,16 +75,32 @@ body > header > ul {
 body > section:first-of-type {
   width: 100vw;
   height: calc(100vh - 110px);
+  border: 1px solid red;
 }
 
 body > section:first-of-type > div {
   width: 100%;
   height: 100%;
+  padding-top: 219px;
+  padding-bottom: 85px;
+}
+
+body > section:first-of-type > div > div:first-child {
+  width: 100%;
   padding-left: 23px;
 }
 
-body > section > div > p {
+body > section > div:first-of-type > div:first-child > p {
   line-height: 0.5;
   font-size: 96px;
   font-weight: 700;
+  font-family: 'Inter';
+}
+
+body > section:first-of-type > div > div:nth-child(3) > p {
+  color: var(--main-color-01);
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
 }
