@@ -49,7 +49,9 @@
   }
 
   /* section-2 */
-  body > section:nth-of-type(2) > div > div > div:nth-child(1) {
+  body > section:nth-of-type(2) > div {
+    height: 1368px;
+    padding-bottom: 494px;
     padding-left: 60px;
   }
 

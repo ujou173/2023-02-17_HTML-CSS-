@@ -139,9 +139,6 @@ body > section:nth-of-type(2) > div {
   width: 100%;
   height: calc(100vh - 200px);
   padding-bottom: 147px;
-}
-
-body > section:nth-of-type(2) > div > div > div:nth-child(1) {
   padding-left: 19px;
 }
 
@@ -177,7 +174,7 @@ body > footer {
 
 body > footer > div {
   width: 100%;
-  color: var(--color-white);
+  color: var(--color-lightgray);
   font-size: var(--font-size-small-8);
   font-weight: var(--font-wight-400);
   font-family: 'Inter';
