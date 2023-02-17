@@ -2,7 +2,25 @@
 
 @media screen and (min-width: 601px) {
 
+/* header */
+  body > header > div {
+    height: 100px;
+  }
+
   body > header > div > p:nth-child(2) {
     display: none;
   }
+
+  body > header > ul {
+    display: block;
+    padding: 40px 0px 40px 60px;
+  }
+
+  /* section-1 */
+
+
+
+
+
+
 }

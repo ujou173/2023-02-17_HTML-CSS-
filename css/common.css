@@ -62,18 +62,17 @@ p {margin: 0;}
 
 /* header */
 body > header {
-  background-color: var(--color-blue);
   width: 100vw;
-  height: 110px;
 }
 
 body > header > div {
-  height: 100%;
+  height: 110px;
   padding-bottom: 27px;
   color: var(--color-white);
   font-family: 'Inter';
   font-weight: var(--font-wight-900);
   font-size: var(--font-size-small-12);
+  background-color: var(--color-blue);
 }
 
 body > header > div > p:nth-child(2) {
@@ -84,7 +83,7 @@ body > header > div > p:nth-child(2) {
 body > header > ul {
   display: none;
   list-style-type: none;
-  padding: 40px 0px 40px 60px;
+  padding: 40px 0px 40px 19px;
   margin: 0;
   background-color: var(--color-lightgray);
   font-family: 'Inter';
@@ -117,7 +116,7 @@ body > section:first-of-type > div > div:first-child {
 }
 
 body > section:first-of-type > div > div:first-child > p {
-  line-height: 0.5;
+  line-height: 0.55;
   font-size: var(--font-size-large-96);
   font-weight: var(--font-wight-700);
   font-family: 'Inter';
