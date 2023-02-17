@@ -17,10 +17,21 @@
   }
 
   /* section-1 */
+  body > section:first-of-type {
+    height: calc(100vh - 273px);
+  }
 
+  body > section:first-of-type > div {
+    padding-top: 86px;
+    padding-bottom: 210px;
+  }
 
+  body > section:first-of-type > div > div:first-child {
+    padding-left: 60px;
+  }
 
-
-
+  body > section:first-of-type > div > div:first-child > p {
+    line-height: 96px;
+  }
 
 }
