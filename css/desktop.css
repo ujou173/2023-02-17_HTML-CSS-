@@ -9,7 +9,18 @@
     justify-content: flex-start;
   }
 
-  body > header > div > p:first-child {
-
+  body > header > ul {
+    padding: 40px 0px 40px 38px;
   }
+
+  /* section */
+  body > section:first-of-type {
+    display: inline-block;
+    width: 29.6%;
+  }
+  body > section:last-of-type {
+    display: inline-block;
+    width: 70%;
+  }
+
 }

@@ -18,46 +18,46 @@
   }
 
   /* section-1 */
-  body > section:first-of-type {
+  body > main > section:first-of-type {
     height: calc(100vh - 273px);
   }
 
-  body > section:first-of-type > div {
+  body > main > section:first-of-type > div {
     padding-top: 86px;
     padding-bottom: 210px;
   }
 
-  body > section:first-of-type > div > div:first-child {
+  body > main > section:first-of-type > div > div:first-child {
     padding-left: 60px;
   }
 
-  body > section:first-of-type > div > div:first-child > p {
+  body > main > section:first-of-type > div > div:first-child > p {
     line-height: 80px;
   }
 
-  body > section:first-of-type > div > div:nth-of-type(2) {
+  body > main > section:first-of-type > div > div:nth-of-type(2) {
     align-self: flex-start;
     padding-left: 196px;
   }
 
-  body > section:first-of-type > div > div:nth-of-type(3) {
+  body > main > section:first-of-type > div > div:nth-of-type(3) {
     align-self: flex-start;
     padding-left: 60px;
   }
 
-  body > section:first-of-type > div > div:nth-of-type(3) > p {
+  body > main > section:first-of-type > div > div:nth-of-type(3) > p {
     text-align: left;
   }
 
   /* section-2 */
-  body > section:nth-of-type(2) > div {
+  body > main > section:nth-of-type(2) > div {
     height: 1368px;
     padding-bottom: 494px;
     padding-left: 60px;
   }
 
   /* 마지막 문장 밑줄 가상태그로 처리 */
-  body > section:nth-of-type(2) > div > div > div:nth-child(1) > p:last-child::after {
+  body > main > section:nth-of-type(2) > div > div > div:nth-child(1) > p:last-child::after {
     width: 317%;
     bottom: -9px;
   }
