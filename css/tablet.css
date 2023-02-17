@@ -8,6 +8,7 @@
     padding-bottom: 19px;
   }
 
+  /* header쪽 화살표 안보이게 처리 */
   body > header > div > p:nth-child(2) {
     display: none;
   }

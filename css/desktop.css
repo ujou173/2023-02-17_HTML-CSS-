@@ -38,8 +38,24 @@
   body > main > section:nth-of-type(2) > div {
     height: 857px;
     padding-bottom: 82px;
-    padding-left: auto;
-    padding-right: 64px;
+    padding-left: 0;
+    padding-right: 69px;
+    justify-content: flex-end;
+  }
+
+  body > main > section:nth-of-type(2) > div > div > div:nth-child(1) > p {
+    text-align: right;
+  }
+
+  /* 마지막 문장 밑줄 가상태그 위치 조절 */
+  body > main > section:nth-of-type(2) > div > div > div:nth-child(1) > p:last-child::after {
+    right: 0;
+    left: auto;
+  }
+
+  /* section-2 화살표 안보이게 처리 */
+  body > main > section:nth-of-type(2) > div > div > div:nth-child(2) {
+    display: none;
   }
 
 }
