@@ -1,0 +1,45 @@
+@charset 'utf-8';
+
+:root {
+  --main-color-01: #2196F3;
+}
+
+* {box-sizing: border-box;}
+/* class */
+.display-flex {display: flex;}
+
+.direction-row {flex-direction: row;}
+.direction-row {flex-direction: row-reverse;}
+.direction-column {flex-direction: column;}
+.direction-column {flex-direction: column-reverse;}
+
+.justify-content-start {justify-content: flex-start;}
+.justify-content-center {justify-content: center;}
+.justify-content-end {justify-content: flex-end;}
+
+.align-items-start{align-items: flex-start;}
+.align-items-center{align-items: center;}
+.align-items-end{align-items: flex-end;}
+
+.position-relative {position: relative;}
+.position-absolute {position: absolute;}
+.position-fixed {position: fixed;}
+
+/* header */
+body > header {
+  background-color: var(--main-color-01);
+  height: 110px;
+}
+
+body > header > div {
+  height: 100%;
+  position: relative;
+}
+
+body > header > div > p:nth-child(2) {
+  right: 50px;
+}
+
+body > header > ul {
+  display: none;
+}
