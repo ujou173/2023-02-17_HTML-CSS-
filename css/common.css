@@ -2,11 +2,9 @@
 
 /* Inter 폰트 - 400/700/900 */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
-/* font-family: 'Inter', sans-serif; */
 
 /* Karantina 폰트 - 400 */
 @import url('https://fonts.googleapis.com/css2?family=Karantina&display=swap');
-/* font-family: 'Karantina', cursive; */
 
 :root {
   --main-color-01: #2196F3;
@@ -19,6 +17,7 @@ body {margin: 0;}
 p {margin: 0;}
 
 /* class */
+/* flex 속성 */
 .display-flex {display: flex;}
 
 .direction-row {flex-direction: row;}
@@ -120,15 +119,25 @@ body > section:nth-of-type(2) > div {
   height: calc(100vh - 200px);
 }
 
+body > section:nth-of-type(2) > div > div:nth-child(1) {
+  padding-left: 19px;
+}
+
 body > section:nth-of-type(2) > div > div:nth-child(1) > p {
   font-size: 128px;
   font-weight: 400;
   font-family: 'Karantina';
-  padding-left: 19px;
 }
 
-body > section:nth-of-type(2) > div > div:nth-child(1) > p:last-child{
-  text-decoration: underline;
+/* 마지막 문장 밑줄 가상태그로 처리 */
+body > section:nth-of-type(2) > div > div:nth-child(1) > p:last-child::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--font-color-white);
 }
 
 body > section:nth-of-type(2) > div > div:nth-child(2) > i {
