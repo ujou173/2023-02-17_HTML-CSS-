@@ -69,7 +69,6 @@ body > header {
 
 body > header > div {
   height: 100%;
-  position: relative;
   padding-bottom: 27px;
   color: var(--color-white);
   font-family: 'Inter';
@@ -84,6 +83,16 @@ body > header > div > p:nth-child(2) {
 /* 토글기능 만들어야 됨! */
 body > header > ul {
   display: none;
+  list-style-type: none;
+  padding: 40px 60px 40px;
+  margin: 0;
+  background-color: var(--color-lightgray);
+}
+
+body > header > ul > li > a {
+  color: black;
+  text-decoration: none;
+  line-height: 14.5px;
 }
 
 /* section-1 */
