@@ -152,7 +152,7 @@ body > section:nth-of-type(2) > div > div > div:nth-child(1) > p {
 }
 
 /* 마지막 문장 밑줄 가상태그로 처리 */
-body > section:nth-of-type(2) > div > div > div:nth-child(1) > p:last-child::after{
+body > section:nth-of-type(2) > div > div > div:nth-child(1) > p:last-child::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -172,11 +172,11 @@ body > section:nth-of-type(2) > div > div > div:nth-child(2) > i {
 body > footer {
   background-color: var(--color-black);
   height: 200px;
-  padding-bottom: 60px;
+  padding: 0 43px 60px 43px;
 }
 
 body > footer > div {
-  width: 345px;
+  width: 100%;
   color: var(--color-white);
   font-size: var(--font-size-small-8);
   font-weight: var(--font-wight-400);

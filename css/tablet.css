@@ -48,4 +48,14 @@
     text-align: left;
   }
 
+  /* section-2 */
+  body > section:nth-of-type(2) > div > div > div:nth-child(1) {
+    padding-left: 60px;
+  }
+
+  /* 마지막 문장 밑줄 가상태그로 처리 */
+  body > section:nth-of-type(2) > div > div > div:nth-child(1) > p:last-child::after {
+    width: 317%;
+    bottom: -9px;
+  }
 }
