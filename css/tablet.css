@@ -31,7 +31,16 @@
   }
 
   body > section:first-of-type > div > div:first-child > p {
-    line-height: 96px;
+    line-height: 80px;
+  }
+
+  body > section:first-of-type > div > div:nth-of-type(3) {
+    align-self: flex-start;
+    padding-left: 60px;
+  }
+
+  body > section:first-of-type > div > div:nth-of-type(3) > p {
+    text-align: left;
   }
 
 }
